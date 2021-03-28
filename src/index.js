@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Heading from "./Heading.js"
-import Body from "./Body.js"
+import App from "./App.js"
 ReactDOM.render(
   <div>
-    <Heading />
-    <Body />
+    <React.StrictMode>
+      <App />
+    </React.StrictMode>
   </div>,
   document.getElementById('root')
 );

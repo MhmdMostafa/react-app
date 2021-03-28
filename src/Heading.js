@@ -2,9 +2,6 @@ import React from "react";
 
 // const el = document.getElementById("jump_to_this_location").scrollIntoView({ behavior: 'smooth' });
 
-function move_to() {
-    console.log("el");
-}
 
 function Heading() {
     return <div>
@@ -32,6 +29,6 @@ function Heading() {
             </div>
             <button className="btn btn-outline-success my-2 my-lg-0" type="submit">Search</button>
         </nav>
-    </div >
+    </div>
 }
 export default Heading;
